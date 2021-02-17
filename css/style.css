@@ -65,20 +65,39 @@
 }
 
 /* esercizio 6 */
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img {
     width: 500px;
 }
 
+
+/* esercizio 7 */
+.ex-7-img {
+  width: 500px;
+}
+
+/* esercizio 8 */
+.ex-8-img {
+  width: 500px;
+}
+
+/* esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+
+/* esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* esercizio 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
