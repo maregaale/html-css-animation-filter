@@ -140,7 +140,7 @@
   100% {transform: rotate(0deg);}
 }
 
-/* esercizio 12 */
+/* esercizi 12 e 13*/
 .ex-12-button, .ex-13-button {
   position: relative;
   display: block;
@@ -170,3 +170,32 @@
   width: 60px;
   height: 20px;
 }
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: white-animation-partial;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+
+@keyframes white-animation-partial {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+
+  50% {
+    top: -10px;
+    left: calc(100% - 60px);
+  }
+
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+}
+
+
+/* esercizio 13 */
