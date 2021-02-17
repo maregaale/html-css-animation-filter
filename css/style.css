@@ -76,7 +76,7 @@
 /* esercizio 7 */
 .ex-7-img {
   width: 500px;
-  transition: filter 3s ease-in-out;
+  transition: filter 1.5s ease-in-out;
 }
 
 .ex-7-img:hover {
@@ -86,6 +86,12 @@
 /* esercizio 8 */
 .ex-8-img {
   width: 500px;
+  transition: all 1.5s ease-in-out;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(0.8) sepia(0.6);
+  border-radius: 10px;
 }
 
 /* esercizio 9 */
